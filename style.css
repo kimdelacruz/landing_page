@@ -2,11 +2,12 @@
 font-family: sans-serif, "Roboto";
 margin: 0;
 }
+
 .heading {
     background-color: rgba(165, 101, 42, 0.59);
     color: #e8d6af;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 10px;
 }
 .logo {
@@ -20,3 +21,14 @@ ul {
     gap: 20px;
     padding-top: 5px;
 }
+
+.top_container{
+    background-color:rgba(165, 101, 42, 0.59);
+}
+.statement{
+    font-size: 28px;
+    font-weight: bolder;
+    color:whitesmoke;
+}
+
+
