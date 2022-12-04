@@ -7,15 +7,17 @@ margin: 0;
     background-color: rgba(165, 101, 42, 0.59);
     color: #e8d6af;
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    padding-top: 20px;
+    gap: 310px;
+    align-items: center;
+    justify-content: center;
 }
 .logo {
     font-size: 20px;
 }
 
 ul {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: lighter;
     display: flex;
     gap: 20px;
@@ -24,11 +26,25 @@ ul {
 
 .top_container{
     background-color:rgba(165, 101, 42, 0.59);
+    display: flex;
+    padding: 80px;
+    justify-content: space-evenly;
+}
+.small-container{
+    width: 400px;
+    height: auto;
 }
 .statement{
     font-size: 28px;
-    font-weight: bolder;
+    font-weight: 300;
     color:whitesmoke;
 }
-
-
+.small_statement {
+    font-size: 15px;
+    font-weight: 250;
+    color:floralwhite
+}
+img {
+    width: 400px;
+    height: auto;
+}
