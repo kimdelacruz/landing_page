@@ -32,7 +32,10 @@ ul {
 }
 .small-container{
     width: 400px;
-    height: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .statement{
     font-size: 28px;
@@ -43,6 +46,20 @@ ul {
     font-size: 15px;
     font-weight: 250;
     color:floralwhite
+}
+
+button {
+    background-color: rgba(119, 79, 0, 0.92);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 100px;
+
 }
 img {
     width: 400px;
