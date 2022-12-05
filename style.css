@@ -1,6 +1,6 @@
 * {
 font-family: sans-serif, "Roboto";
-margin: 0;
+margin: 0px;
 }
 
 .heading {
@@ -59,9 +59,80 @@ button {
     padding-top: 5px;
     padding-bottom: 5px;
     max-width: 100px;
-
 }
-img {
+
+
+
+.container_three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+
+    color: rgb(176, 130, 69);
+}
+
+.karate {
     width: 400px;
     height: auto;
+}
+
+.subheader {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.information {
+    display: flex;
+    gap: 30px;
+}
+
+.info {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    font-weight: 400;
+    
+}
+.subtext {
+    font-size: 10px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.ufc {
+    border: solid 5px #e8d6af;
+    border-radius: 6px;
+}
+
+.quote {
+    background-color:rgba(165, 101, 42, 0.456) ;
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+
+}
+
+.yoel {
+    width: 500px;
+    max-height: 350px;
+    font-size: 25px;
+    font-weight: 100;
+    font-style: italic;
+}
+.credit {
+    padding-top: 10px;
 }
