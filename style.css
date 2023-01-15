@@ -53,14 +53,10 @@ ul {
     color: white;
     font-weight: 500;
     border: none;
+    padding: 5px 20px;
     border-radius: 5px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     max-width: 100px;
 }
-
 
 
 .container_three {
@@ -137,5 +133,41 @@ ul {
 }
 
 .container_four {
-    background-color: white;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+
+}
+.adbox {
+    background-color: rgba(224, 201, 179, 0.873) ;
+    padding: 30px 100px;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    gap: 200px;
+}
+
+.ad {
+    color: white;
+    font-weight: 600;
+}
+
+.adbody {
+    color: white;
+    font-weight: 300;
+}
+
+.ad_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    background-color: transparent;
+    padding: 5px 20px;
+    max-width: 100px;
+    border:white solid 2px;
+    color: white;
+    border-radius: 5px;
 }
